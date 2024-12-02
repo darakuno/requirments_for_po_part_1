@@ -161,7 +161,7 @@
 									"top": 370,
 									"width": 91.228515625,
 									"height": 26,
-									"text": "Подсистема предобработки ",
+									"text": "Компонент предобработки",
 									"wordWrap": true
 								}
 							],
@@ -194,8 +194,8 @@
 									"left": 410,
 									"top": 370,
 									"width": 93,
-									"height": 26,
-									"text": "Интерфейс загрузки видео",
+									"height": 39,
+									"text": "Интерфейс для загрузки данных",
 									"wordWrap": true
 								}
 							],
@@ -203,7 +203,7 @@
 							"left": 400,
 							"top": 360,
 							"width": 113,
-							"height": 46,
+							"height": 59,
 							"nameLabel": {
 								"$ref": "AAAAAAGTbt2ZZQxu3xE="
 							}
@@ -248,7 +248,7 @@
 								"$ref": "AAAAAAGTbt2ZZQxtfiU="
 							},
 							"lineStyle": 2,
-							"points": "448:405;448:456;392:456",
+							"points": "448:418;448:456;392:456",
 							"nameLabel": {
 								"$ref": "AAAAAAGTbt4c1Qx9t58="
 							}
@@ -984,7 +984,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGTbnpKzQwEKrs="
 					},
-					"name": "Подсистема предобработки ",
+					"name": "Компонент предобработки",
 					"ownedElements": [
 						{
 							"_type": "FCFlow",
@@ -1007,7 +1007,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGTbnpKzQwEKrs="
 					},
-					"name": "Интерфейс загрузки видео",
+					"name": "Интерфейс для загрузки данных",
 					"ownedElements": [
 						{
 							"_type": "FCFlow",
@@ -1172,6 +1172,717 @@
 						"$ref": "AAAAAAGTbnpKzQwEKrs="
 					},
 					"name": "Вывод результата поиска"
+				}
+			]
+		},
+		{
+			"_type": "UMLStateMachine",
+			"_id": "AAAAAAGTbvG5Cg4981w=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "StateMachine1",
+			"ownedElements": [
+				{
+					"_type": "UMLStatechartDiagram",
+					"_id": "AAAAAAGTbvG5Cw4/8uQ=",
+					"_parent": {
+						"$ref": "AAAAAAGTbvG5Cg4981w="
+					},
+					"name": "StatechartDiagram1"
+				}
+			],
+			"regions": [
+				{
+					"_type": "UMLRegion",
+					"_id": "AAAAAAGTbvG5Cg4+4ew=",
+					"_parent": {
+						"$ref": "AAAAAAGTbvG5Cg4981w="
+					}
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGTbvIrGA5kHKY=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGTbvIrGA5le9I=",
+					"_parent": {
+						"$ref": "AAAAAAGTbvIrGA5kHKY="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGTbvIxXw5rIEI=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"model": {
+								"$ref": "AAAAAAGTbvIxXw5phiU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvIxXw5xrrw=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvIxXw5rIEI="
+									},
+									"font": "Arial;13;0",
+									"left": 554,
+									"top": 253,
+									"width": 237,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvIxXw5s8OU=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvIxXw5rIEI="
+									},
+									"font": "Arial;13;0",
+									"left": 554,
+									"top": 258,
+									"width": 237,
+									"height": 26,
+									"text": "Система поиска данных по видеокадру или видеофрагменту",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvIxXw5tSr0=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvIxXw5rIEI="
+									},
+									"font": "Arial;13;0",
+									"left": 216,
+									"top": -192,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 544,
+							"top": 248,
+							"width": 257,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAGTbvIxXw5s8OU="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGTbvPMVw57fsU=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"model": {
+								"$ref": "AAAAAAGTbvPMVw55RuM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvPMVw6BveE=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvPMVw57fsU="
+									},
+									"font": "Arial;13;0",
+									"left": 282,
+									"top": 357,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvPMVw58Wno=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvPMVw57fsU="
+									},
+									"font": "Arial;13;0",
+									"left": 282,
+									"top": 362,
+									"width": 87.4326171875,
+									"height": 39,
+									"text": "Интерфейс для загрузки данных",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvPMVw59Qco=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvPMVw57fsU="
+									},
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": -80,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 272,
+							"top": 352,
+							"width": 107.4326171875,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAGTbvPMVw58Wno="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGTbvQbVA6KZeg=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"model": {
+								"$ref": "AAAAAAGTbvQbUw6IgUc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvQbVA6QZbY=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvQbVA6KZeg="
+									},
+									"font": "Arial;13;0",
+									"left": 1050,
+									"top": 357,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvQbVA6LmrQ=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvQbVA6KZeg="
+									},
+									"font": "Arial;13;0",
+									"left": 1050,
+									"top": 362,
+									"width": 87.4326171875,
+									"height": 52,
+									"text": "Интерфейс отображения результата поиска",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvQbVA6Mquk=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvQbVA6KZeg="
+									},
+									"font": "Arial;13;0",
+									"left": 432,
+									"top": -48,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 1040,
+							"top": 352,
+							"width": 107.4326171875,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGTbvQbVA6LmrQ="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGTbvT41Q6bO+M=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"model": {
+								"$ref": "AAAAAAGTbvT41Q6Z1/U="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvT41Q6hwb0=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvT41Q6bO+M="
+									},
+									"font": "Arial;13;0",
+									"left": 210,
+									"top": 453,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvT41Q6cWXY=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvT41Q6bO+M="
+									},
+									"font": "Arial;13;0",
+									"left": 210,
+									"top": 458,
+									"width": 87.4326171875,
+									"height": 26,
+									"text": "Ввод изображения",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvT41Q6dtaw=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvT41Q6bO+M="
+									},
+									"font": "Arial;13;0",
+									"left": -104,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 200,
+							"top": 448,
+							"width": 107.4326171875,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGTbvT41Q6cWXY="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGTbvUUtA6oQMo=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"model": {
+								"$ref": "AAAAAAGTbvUUtA6msaY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvUUtA6uqus=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvUUtA6oQMo="
+									},
+									"font": "Arial;13;0",
+									"left": 346,
+									"top": 453,
+									"width": 102.49560546875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvUUtA6pCz0=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvUUtA6oQMo="
+									},
+									"font": "Arial;13;0",
+									"left": 346,
+									"top": 458,
+									"width": 102.49560546875,
+									"height": 26,
+									"text": "Ввод видеофрагмента",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvUUtA6qJh4=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvUUtA6oQMo="
+									},
+									"font": "Arial;13;0",
+									"left": -40,
+									"top": -16,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 336,
+							"top": 448,
+							"width": 122.49560546875,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGTbvUUtA6pCz0="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGTbvbaNg67XN4=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"model": {
+								"$ref": "AAAAAAGTbvbaNQ65t/E="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvbaNg7BGS0=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvbaNg67XN4="
+									},
+									"font": "Arial;13;0",
+									"left": 458,
+									"top": 357,
+									"width": 91.228515625,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvbaNg68nJw=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvbaNg67XN4="
+									},
+									"font": "Arial;13;0",
+									"left": 458,
+									"top": 362,
+									"width": 91.228515625,
+									"height": 26,
+									"text": "Компонент предобработки",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvbaNg69NCs=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvbaNg67XN4="
+									},
+									"font": "Arial;13;0",
+									"left": -120,
+									"top": -8,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 448,
+							"top": 352,
+							"width": 111.228515625,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAGTbvbaNg68nJw="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGTbveGRA7QCCg=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"model": {
+								"$ref": "AAAAAAGTbveGRA7OeUQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbveGRQ7WZo0=",
+									"_parent": {
+										"$ref": "AAAAAAGTbveGRA7QCCg="
+									},
+									"font": "Arial;13;0",
+									"left": 610,
+									"top": 357,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbveGRQ7RQYk=",
+									"_parent": {
+										"$ref": "AAAAAAGTbveGRA7QCCg="
+									},
+									"font": "Arial;13;0",
+									"left": 610,
+									"top": 362,
+									"width": 87.4326171875,
+									"height": 52,
+									"text": "Алгоритмы извлечения контекста изображений",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbveGRQ7Smbg=",
+									"_parent": {
+										"$ref": "AAAAAAGTbveGRA7QCCg="
+									},
+									"font": "Arial;13;0",
+									"left": -48,
+									"top": -8,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 600,
+							"top": 352,
+							"width": 107.4326171875,
+							"height": 72,
+							"nameLabel": {
+								"$ref": "AAAAAAGTbveGRQ7RQYk="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGTbvfK8A7gn+g=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"model": {
+								"$ref": "AAAAAAGTbvfK7w7eKmk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvfK8A7mSlM=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvfK8A7gn+g="
+									},
+									"font": "Arial;13;0",
+									"left": 762,
+									"top": 357,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvfK8A7hkug=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvfK8A7gn+g="
+									},
+									"font": "Arial;13;0",
+									"left": 762,
+									"top": 362,
+									"width": 87.4326171875,
+									"height": 39,
+									"text": "Модель МО для поиска программ",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvfK8A7iPtE=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvfK8A7gn+g="
+									},
+									"font": "Arial;13;0",
+									"left": -16,
+									"top": -192,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 752,
+							"top": 352,
+							"width": 107.4326171875,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAGTbvfK8A7hkug="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGTbvhCTQ71/K8=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"model": {
+								"$ref": "AAAAAAGTbvhCTA7zJIs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvhCTQ77R0o=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvhCTQ71/K8="
+									},
+									"font": "Arial;13;0",
+									"left": 906,
+									"top": 357,
+									"width": 90.66357421875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvhCTQ72Amw=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvhCTQ71/K8="
+									},
+									"font": "Arial;13;0",
+									"left": 906,
+									"top": 362,
+									"width": 90.66357421875,
+									"height": 39,
+									"text": "Формирование информации для вывода",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGTbvhCTQ73w7Y=",
+									"_parent": {
+										"$ref": "AAAAAAGTbvhCTQ71/K8="
+									},
+									"font": "Arial;13;0",
+									"left": 312,
+									"top": -280,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 896,
+							"top": 352,
+							"width": 110.66357421875,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAGTbvhCTQ72Amw="
+							}
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGTbvnBdQ8MhLg=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "376:352;544:296"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGTbvnr8w8S6kc=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "344:408;360:448"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGTbvn6Ww8V3kc=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "296:408;276:448"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGTbvpHfQ8Ywrc=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "560:304;520:350"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGTbvpWOA8b5K4=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "648:304;646:350"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGTbvpj2Q8eCUg=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "728:304;768:350"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGTbvqMBQ8i5Lo=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "800:304;909:350"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGTbvrnPg8mT80=",
+							"_parent": {
+								"$ref": "AAAAAAGTbvIrGA5le9I="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "800:272;1081:352"
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGTbvIxXw5phiU=",
+					"_parent": {
+						"$ref": "AAAAAAGTbvIrGA5kHKY="
+					},
+					"name": "Система поиска данных по видеокадру или видеофрагменту"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGTbvPMVw55RuM=",
+					"_parent": {
+						"$ref": "AAAAAAGTbvIrGA5kHKY="
+					},
+					"name": "Интерфейс для загрузки данных"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGTbvQbUw6IgUc=",
+					"_parent": {
+						"$ref": "AAAAAAGTbvIrGA5kHKY="
+					},
+					"name": "Интерфейс отображения результата поиска"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGTbvT41Q6Z1/U=",
+					"_parent": {
+						"$ref": "AAAAAAGTbvIrGA5kHKY="
+					},
+					"name": "Ввод изображения"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGTbvUUtA6msaY=",
+					"_parent": {
+						"$ref": "AAAAAAGTbvIrGA5kHKY="
+					},
+					"name": "Ввод видеофрагмента"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGTbvbaNQ65t/E=",
+					"_parent": {
+						"$ref": "AAAAAAGTbvIrGA5kHKY="
+					},
+					"name": "Компонент предобработки"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGTbveGRA7OeUQ=",
+					"_parent": {
+						"$ref": "AAAAAAGTbvIrGA5kHKY="
+					},
+					"name": "Алгоритмы извлечения контекста изображений"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGTbvfK7w7eKmk=",
+					"_parent": {
+						"$ref": "AAAAAAGTbvIrGA5kHKY="
+					},
+					"name": "Модель МО для поиска программ"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGTbvhCTA7zJIs=",
+					"_parent": {
+						"$ref": "AAAAAAGTbvIrGA5kHKY="
+					},
+					"name": "Формирование информации для вывода"
 				}
 			]
 		}
